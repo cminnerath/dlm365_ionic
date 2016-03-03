@@ -1,0 +1,12 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="list card" ng-repeat="mini in minis">
+      <div class="item item-divider">{{mini.film_title}}</div>
+      <div class="item item-body">
+        <div>
+          {{mini.date_viewed}}
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
